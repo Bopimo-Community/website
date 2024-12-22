@@ -1,0 +1,55 @@
+* {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    background: url('images/checkers.png');
+    animation: scrolling 5s infinite;
+}
+
+.com {
+    font-size: 50px;
+text-align: center;
+color: #fff;
+margin-top: 250px;
+margin-left: 40%;
+}
+
+.abt {
+    color: #fff;
+    font-size: 20px;
+    opacity: 0.5;
+    margin-left: 57%;
+}
+
+
+.bimg {
+    border-radius: 50%;
+    animation: rotation 2s infinite;
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+@keyframes scrolling {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -140px 140px;
+    }
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
