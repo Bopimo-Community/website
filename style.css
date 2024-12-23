@@ -18,6 +18,75 @@ margin-left: 40%;
     margin-left: 57%;
 }
 
+.proj1 {
+    color: #fff;
+    height:420px;
+    width:350px;
+    margin-top: 200px;
+    background: none;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1)rgba(255,255,255,0)) ;
+    border: 1px solid rgba(255,255,2555,0.18);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,37);
+    border-radius: 15px;
+    padding:30px;
+    animation:pop-in 0.5s ease;
+    margin-left: 37%;
+}
+
+.download1 {
+    display: block;
+height: 30px;
+width: 300px;
+padding: 20px 0px 20px 10px;
+border-radius: 10px;
+margin-top: 100px;
+margin-left: 15px;
+background: rgb(205,125,255);
+background: -moz-linear-gradient(90deg, rgba(205,125,255,1) 0%, rgba(61,0,135,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(205,125,255,1) 0%, rgba(61,0,135,1) 100%);
+background: linear-gradient(90deg, rgba(205,125,255,1) 0%, rgba(61,0,135,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cd7dff",endColorstr="#3d0087",GradientType=1);
+backdrop-filter: blur(10px);
+box-shadow: 0 2px 20px 0 rgba(158,0,255,1);
+background-size: 300%;
+background-position: left;
+text-align: center;
+font-size: 25px;
+color: mintcream;
+text-decoration: none;
+transition: background-position 1s ease-in-out;
+transition: all 1s ease-out;
+animation: pop-in 0.6s ease-in-out forwards;
+position: absolute;
+}
+
+.proj1a {
+    display: block;
+    margin-left: 123.9px;
+    font-size: 20px;
+}
+
+.noma {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-left: 143.9px;
+}
+
+.proj1p {
+    text-align: center;
+    opacity: 0.5;
+}
+
+.proj1cred {
+    text-align: center;
+}
+
+.proj1abt {
+    text-align: center;
+    
+}
 
 .bimg {
     border-radius: 50%;
@@ -25,6 +94,13 @@ margin-left: 40%;
     margin-left: 100px;
     height: 300px;
     width: 300px;
+    box-shadow: 0px 4px 12px #fff;
+}
+
+.project {
+    margin-top: 120px;
+    color: #fff;
+    margin-left: 44.5%;
 }
 
 
@@ -46,3 +122,12 @@ margin-left: 40%;
       transform: rotate(359deg);
     }
   }
+
+@keyframes boxanim {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
